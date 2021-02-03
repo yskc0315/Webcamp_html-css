@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list-text {
+  width: 960px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.list-text:first-child {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.list-text:last-child {
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.list-text:nth-child(odd) {
+  background-color: #ececec;
+}
+
+.gradation {
+  width: 960px;
+  height: 680px;
+  display: flex;
+  margin: 0 auto 50px;
+  flex-wrap: wrap;
+}
+
+.gradation-color:nth-child(1) {
+  width: 30%;
+  height: 200px;
+  background-color: #ffa500;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+.gradation-color:nth-child(5) {
+  width: 30%;
+  height: 200px;
+  background-color: #ffa500;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+.gradation-color:nth-child(3n) {
+  width: 30%;
+  height: 200px;
+  margin-right: 0;
+}
+.gradation-color:nth-child(9) {
+  width: 30%;
+  height: 200px;
+  background-color: #ffa500;
+}
+.gradation-color:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+
+.gradation-color {
+  width: 30%;
+  height: 200px;
+  background-color: hsl(51, 100%, 50%);
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
