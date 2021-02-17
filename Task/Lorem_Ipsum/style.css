@@ -18,6 +18,15 @@ header {
   justify-content: space-between;
 }
 
+.menu-trigger {
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  border-width: 0px;
+}
+
 .logo {
   height: 70px;
 }
@@ -63,12 +72,14 @@ li {
 }
 
 .portfolio {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  background-color: #eceff1;
 }
 
 .portfolio-text {
   width: 920px;
-  margin: 90px auto 90px auto;
+  padding-top: 90px;
+  margin: 0px auto 90px auto;
   text-align: center;
 }
 
@@ -147,6 +158,7 @@ li {
 
 .feature-text h1 {
   width: 980px;
+  margin-top: 90px;
   font-size: 32px;
   color: #000;
   display: inline-block;
@@ -209,11 +221,13 @@ li {
 }
 
 .profile {
+  background-color: #eceff1;
   text-align: center;
 }
 
 .profile h1 {
   width: 1024px;
+  padding-top: 90px;
   font-size: 32px;
   color: #000;
   display: inline-block;
@@ -242,7 +256,7 @@ li {
 }
 
 .my-profile {
-  margin-bottom: 90px;
+  padding-bottom: 90px;
   display: flex;
   justify-content: center;
 }
@@ -291,6 +305,7 @@ li {
 }
 
 .contact {
+  margin-top: 90px;
   text-align: center;
 }
 
@@ -374,4 +389,131 @@ li {
   font-size: 16px;
   color: #fafafa;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .head-menu {
+    width: 90%;
+    display: none;
+  }
+
+  .main-visual {
+    background-image: url(img/code.png);
+  }
+  .main-text {
+    padding: 200px 0px;
+    margin: 0px auto;
+    width: 90%;
+  }
+
+  .portfolio-text {
+    width: 90%;
+  }
+  .portfolio-image {
+    width: 90%;
+    display: block;
+    flex-wrap: nowrap;
+  }
+  .p-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .p-image:nth-child(3) {
+    margin-right: auto;
+  }
+  .p-image:nth-child(6) {
+    margin-right: auto;
+  }
+
+  .feature-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .feature-text h1 {
+    width: 90%;
+  }
+  .feature-image {
+    display: block;
+  }
+  .feature-int {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .feature-int:nth-child(3) {
+    margin-right: auto;
+  }
+  .f-text {
+    margin-bottom: 10px;
+  }
+  .f-text:last-child {
+    margin-bottom: 90px;
+  }
+
+  .profile-text h1 {
+    width: 90%;
+  }
+  .profile-text p {
+    width: 90%;
+  }
+  .my-profile {
+    display: block;
+  }
+  .profile-image {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .myname-skills {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .myname {
+    text-align: center;
+  }
+  .myname h2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .myname p {
+    width: 90%;
+  }
+  .myskills {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .myskills p {
+    width: 90%;
+  }
+
+  .contact-text h1 {
+    width: 90%;
+  }
+  .contact-text p {
+    width: 90%;
+  }
+  .info-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .sns {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sns3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tel {
+    margin-bottom: 20px;
+  }
 }
